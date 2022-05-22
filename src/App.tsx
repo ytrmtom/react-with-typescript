@@ -50,7 +50,7 @@ const divRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="App" ref={divRef}>
-      <h1>Subsss</h1>
+      <h1>Subscriptor</h1>
 
       <List subs={subs} />
       <Form onNewSub={handleNewSub} />
